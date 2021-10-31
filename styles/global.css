@@ -1,4 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+
 input:checked ~ .dot {
     transform: translateX(100%);
     background-color: #f9ed69;
+}
+
+.heading {
+    font-weight: 900;
+    text-decoration: none;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    background: linear-gradient(to right, #39a2db 50%, #cc2e5d);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s ease-out;
+}
+
+.heading:hover {
+    cursor: default;
+    background-position: -100%;
 }

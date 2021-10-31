@@ -1,6 +1,7 @@
 import React from 'react';
-import MathJax from 'react-mathjax';
 import Card from '../components/card';
+import Link from 'next/link';
+
 const list = [
     {
         title: 'Density',
@@ -69,6 +70,12 @@ const list = [
         description:
             'Resistance in an airway is equal to change in pressure divided by flow rate [Resistance = (Peak Pressure – Plateau Pressure) / Flow L/sec]',
     },
+    {
+        title: 'Reynolds Number',
+        formula: `Re =\\frac{\\rho u L}{\\mu}`,
+        description:
+            'The Reynolds number is the ratio of inertial forces to viscous forces within a fluid which is subjected to relative internal movement due to different fluid velocities. ',
+    },
 ];
 const formulas = () => {
     return (
@@ -82,6 +89,14 @@ const formulas = () => {
                         );
                     })}
                 </div>
+            </div>
+            <div className="text-right grid grid-cols-2 pt-4 pb-6 font-bold text-blue-500 px-5 md:hidden">
+                <Link href="/">
+                    <a className="text-left">🡰 Home </a>
+                </Link>
+                <Link href="/keyterms">
+                    <a className="">Key Terms 🡲</a>
+                </Link>
             </div>
         </>
     );

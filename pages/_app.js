@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
         <>
             <Head>
                 <title>Fluid Mechanics</title>
-                <link rel="icon" href="/fav.ico" />
+                <link rel="icon" href="images/fav.ico" />
             </Head>
             <Layout>
                 <Component {...pageProps} />

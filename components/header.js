@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { BsFillMoonStarsFill, BsFillSunFill } from 'react-icons/bs';
 import { Sling as Hamburger } from 'hamburger-react';
-import { scroller, animateScroll } from 'react-scroll';
+import { animateScroll } from 'react-scroll';
 
 export const Header = ({ dark, setDark }) => {
     const [isOpen, setOpen] = useState(false);
@@ -64,14 +64,6 @@ export const Header = ({ dark, setDark }) => {
                         </a>
                     </Link>
 
-                    <a
-                        onClick={() => {
-                            ToggleMenu();
-                        }}
-                        className="block cursor-pointer md:inline-block mx-2 px-3 rounded md:rounded-lg md:hover:scale-105 hover:shadow-xl focus:outline focus:shadow-lg focus:bg-blue-200 border-b-2 border-gray-700 dark:border-gray-300 dark:focus:bg-blue-500 md:border-none py-2 mb-2 md:my-2"
-                    >
-                        Articles
-                    </a>
                     <Link href="/keyterms">
                         <a
                             onClick={() => {
