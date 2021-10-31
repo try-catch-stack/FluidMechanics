@@ -92,10 +92,10 @@ const formulas = () => {
             </div>
             <div className="text-right grid grid-cols-2 pt-4 pb-6 font-bold text-blue-500 px-5 md:hidden">
                 <Link href="/">
-                    <a className="text-left">🡰 Home </a>
+                    <a className="text-left">&#8678; Home </a>
                 </Link>
                 <Link href="/keyterms">
-                    <a className="">Key Terms 🡲</a>
+                    <a className="">Key Terms &#8680;</a>
                 </Link>
             </div>
         </>

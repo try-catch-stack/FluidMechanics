@@ -86,7 +86,7 @@ export default function Home() {
 
                 <div className="text-right font-bold text-blue-500 pb-8 md:hidden">
                     <Link href="/keyterms">
-                        <a className="mx-8">Key terms 🡲</a>
+                        <a className="mx-8">Key terms &#8680;</a>
                     </Link>
                 </div>
             </div>

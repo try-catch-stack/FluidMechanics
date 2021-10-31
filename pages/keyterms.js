@@ -176,10 +176,10 @@ export default function KeyTerms() {
                 </table>
                 <div className="text-right grid grid-cols-2  font-bold text-blue-500 pt-12 md:hidden">
                     <Link href="/">
-                        <a className="text-left">🡰 Home </a>
+                        <a className="text-left">&#8678; Home </a>
                     </Link>
                     <Link href="/formulas">
-                        <a className="">Formulas 🡲</a>
+                        <a className="">Formulas &#8680;</a>
                     </Link>
                 </div>
             </div>

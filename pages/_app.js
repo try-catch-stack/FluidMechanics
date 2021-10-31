@@ -7,6 +7,7 @@ function MyApp({ Component, pageProps }) {
     return (
         <>
             <Head>
+                <meta charset="UTF-8" />
                 <title>Fluid Mechanics</title>
                 <link rel="icon" href="images/fav.ico" />
             </Head>
